@@ -1,0 +1,62 @@
+#root {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-family: Helvitica, Sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0px 10px;
+  cursor: pointer;
+  border-radius: 16px;
+  border: 2px solid lightgrey;
+}
+
+.pattern-container {
+  display: flex;
+  margin: 20px auto;
+  gap: 2em;
+  height: 60vh;
+}
+
+.html-container,
+.css-container {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.flex-container {
+  background-color: lightgrey;
+  padding: 20px;
+  flex: 1 1 40%;
+}
+
+.flex-element {
+  background-color: grey;
+  border: 2px solid orange;
+}
+
+.css-display,
+.html-display {
+  text-align: left;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
